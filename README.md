@@ -28,7 +28,7 @@ ShareIt is fully built and deployed in the AWS cloud environment using:
 
 ## Screenshots
 
-- [ShareIt page with one post](/screenshots/shareit-post.PNG)
+- <a href="/screenshots/shareit-post.PNG" target="_blank">ShareIt page with one post</a>
 - [ShareIt page to add new post](/screenshots/shareit-add.PNG)
 - [ShareIt page with many posts](/screenshots/shareit-posts.PNG)
 - [More details on a post](/screenshots/shareit-detailed.PNG)
