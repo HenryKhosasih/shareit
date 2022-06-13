@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # ShareIt
 
 Share your memorable experience with the world
@@ -80,5 +78,3 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 - Enable users to comment on posts
 - Enable users to like posts
-
-> > > > > > > 03fae460f7b70a643c287a56310aaab6732ff3ef
