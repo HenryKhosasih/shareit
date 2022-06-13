@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-shareit-dev-21317-authRole",
+      "UnauthRoleArn": "arn:aws:iam::846809312453:role/amplify-shareit-dev-21317-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::846809312453:role/amplify-shareit-dev-21317-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-shareit-dev-21317-deployment",
+      "UnauthRoleName": "amplify-shareit-dev-21317-unauthRole",
+      "StackName": "amplify-shareit-dev-21317",
+      "StackId": "arn:aws:cloudformation:us-east-1:846809312453:stack/amplify-shareit-dev-21317/64295940-eabe-11ec-9aae-0e5b7b40aefd",
+      "AmplifyAppId": "d3eez67dzgxag8"
+    },
+    "categories": {
+      "auth": {
+        "shareit1ea7c1a4": {},
+        "true": {}
+      }
+    }
+  }
+}

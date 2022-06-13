@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "shareit",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/home/ec2-user/environment/shareit/amplify/backend/api/shareit/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2023-06-13T06:35:31.023Z",
+      "keyDescription": "public"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authshareit1ea7c1a4"
+      }
+    ]
+  }
+}
