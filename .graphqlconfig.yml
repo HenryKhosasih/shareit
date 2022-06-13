@@ -1,6 +1,6 @@
 projects:
   shareit:
-    schemaPath: src/graphql/schema.json
+    schemaPath: amplify/backend/api/shareit/build/schema.graphql
     includes:
       - src/graphql/**/*.js
     excludes:

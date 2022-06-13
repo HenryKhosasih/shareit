@@ -10,6 +10,17 @@ export const onCreatePost = /* GraphQL */ `
       description
       image
       owner
+      comments {
+        items {
+          id
+          message
+          owner
+          createdAt
+          updatedAt
+          postCommentsId
+        }
+        nextToken
+      }
       createdAt
       updatedAt
     }
@@ -24,6 +35,17 @@ export const onUpdatePost = /* GraphQL */ `
       description
       image
       owner
+      comments {
+        items {
+          id
+          message
+          owner
+          createdAt
+          updatedAt
+          postCommentsId
+        }
+        nextToken
+      }
       createdAt
       updatedAt
     }
@@ -38,8 +60,55 @@ export const onDeletePost = /* GraphQL */ `
       description
       image
       owner
+      comments {
+        items {
+          id
+          message
+          owner
+          createdAt
+          updatedAt
+          postCommentsId
+        }
+        nextToken
+      }
       createdAt
       updatedAt
+    }
+  }
+`;
+export const onCreateComment = /* GraphQL */ `
+  subscription OnCreateComment($owner: String) {
+    onCreateComment(owner: $owner) {
+      id
+      message
+      owner
+      createdAt
+      updatedAt
+      postCommentsId
+    }
+  }
+`;
+export const onUpdateComment = /* GraphQL */ `
+  subscription OnUpdateComment($owner: String) {
+    onUpdateComment(owner: $owner) {
+      id
+      message
+      owner
+      createdAt
+      updatedAt
+      postCommentsId
+    }
+  }
+`;
+export const onDeleteComment = /* GraphQL */ `
+  subscription OnDeleteComment($owner: String) {
+    onDeleteComment(owner: $owner) {
+      id
+      message
+      owner
+      createdAt
+      updatedAt
+      postCommentsId
     }
   }
 `;
