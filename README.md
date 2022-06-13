@@ -1,5 +1,41 @@
 <<<<<<< HEAD
-# Getting Started with Create React App
+
+# ShareIt
+
+Share your memorable experience with the world
+
+## Description
+
+A responsive full stack web application that allow users to:
+
+- Register for a new account
+- Login as current member
+- View all posts
+- View my posts
+- Add new posts
+- View detailed information of selected post
+- Sign out
+
+## Technology used
+
+ShareIt is fully built and deployed in the AWS cloud environment using:
+
+- Cloud9 for setting up and configuring application code in Linux environment
+- Amplify for front-end and back-end integration (by automating services creation listed below using CloudFormation)
+- AppSync for defining GraphQL API schema
+- Cognito User Pool for user authentication
+- S3 for storing uploaded images and development code
+- DynamoDB for storing posts data
+- React JS framework
+
+## Screenshots
+
+- [ShareIt page with one post](/screenshots/shareit-post.PNG)
+- [ShareIt page to add new post](/screenshots/shareit-add.PNG)
+- [ShareIt page with many posts](/screenshots/shareit-posts.PNG)
+- [More details on a post](/screenshots/shareit-detailed.PNG)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -40,36 +76,9 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Working in progress
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Enable users to comment on posts
+- Enable users to like posts
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# shareit
-Share your memorable experience with the world
->>>>>>> 03fae460f7b70a643c287a56310aaab6732ff3ef
+> > > > > > > 03fae460f7b70a643c287a56310aaab6732ff3ef
