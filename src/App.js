@@ -73,7 +73,7 @@ function Router({user, signOut}) {
               </Route>
             </Switch>
           </div>
-          <button onClick={signOut}>Sign out</button>
+          <button className={signOutButton} onClick={signOut}>Sign out</button>
         </HashRouter>
         { showOverlay && (
           <CreatePost
@@ -93,6 +93,9 @@ const dividerStyle = css`
 const contentStyle = css`
   min-height: calc(100vh - 45px);
   padding: 0px 40px;
+`
+const signOutButton = css`
+  margin: 20px;
 `
 
 export default withAuthenticator(Router);
